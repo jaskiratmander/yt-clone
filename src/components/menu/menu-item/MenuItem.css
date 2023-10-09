@@ -1,0 +1,33 @@
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px 12px;
+  gap: 24px;
+  color: #fff;
+  font-weight: 500;
+  background: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: var(--font-size-base);
+}
+
+.menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.menu-active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.close_menu_item {
+  flex-direction: column;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  min-width: min-content;
+  gap: 6px;
+  font-size: 10px;
+  padding: 16px 2px;
+  font-weight: 400;
+}

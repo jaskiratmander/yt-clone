@@ -1,0 +1,13 @@
+.main {
+  background-color: var(--background-color);
+  overflow-x: none;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  padding-left: 32px;
+  padding-right: 24px;
+  padding-bottom: 48px;
+}
+
+/* .main--fullWidth {
+  grid-column: 1/-1;
+} */

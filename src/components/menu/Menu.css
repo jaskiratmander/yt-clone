@@ -1,0 +1,38 @@
+.menu {
+  padding-right: 4px;
+  overflow: hidden;
+  width: 23rem;
+}
+
+.menu:hover {
+  overflow-y: scroll;
+}
+
+.menu_items_wrapper {
+  padding-left: 13px;
+  padding-top: 9px;
+  padding-bottom: 12px;
+  padding-right: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.menu-sub-heading {
+  font-size: 16px;
+  color: #fff;
+  padding: 6px 12px;
+  padding-top: 14px;
+}
+
+.close {
+  /* display: none; */
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+  padding-left: 6px;
+  padding-top: 0;
+  padding-right: 0;
+}
+
+.close::-webkit-scrollbar {
+  display: none;
+}

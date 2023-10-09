@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: min-content calc(100vh - 5.84rem);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  margin-top: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}

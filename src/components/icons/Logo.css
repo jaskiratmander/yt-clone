@@ -1,0 +1,9 @@
+.logo svg {
+  height: 5.6rem;
+  width: 12rem;
+  display: inline-block;
+}
+
+.logo {
+  margin-right: auto;
+}

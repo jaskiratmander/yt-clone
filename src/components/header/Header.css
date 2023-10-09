@@ -1,0 +1,13 @@
+.header {
+  grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  padding: 0 1.6rem;
+  position: sticky;
+}
+.profile_image {
+  height: 3.6rem;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 12px;
+}
